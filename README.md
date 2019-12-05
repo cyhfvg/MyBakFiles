@@ -6,6 +6,7 @@
   - [nodejs](#nodejs)
   - [oh-my-zsh](#oh-my-zsh)
   - [SpaceVim](#spacevim)
+  - [ShadowSocksR](#ShadowSocksR)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -64,3 +65,17 @@ source ~/.zshrc
 ```bash
 bash ./spaceVimInstall.sh
 ```
+
+## ShadowSocksR
+搭建ShadowSocksR作为VPN使用
+1.install ssr
+```bash
+./ssr.sh
+```
+根据安装脚本的指示配置，完成安装。
+2.install bbr
+bbr可以提高ShadowSocksR访问速度
+```bash
+./bbr.sh
+```
+如果提示缺少libsodium依赖，直接安装，重新运行bbr.sh。
