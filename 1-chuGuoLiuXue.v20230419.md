@@ -1,8 +1,8 @@
 # 出国留学
 
-[不良林视频 ref](https://www.youtube.com/watch?v=s90feRmdr9A&list=PLD4NhM_IqBXWgPipuLewPNWzQam6g0xZ_&index=7)
-[不良林教程 ref1](https://bulianglin.com/g/node/)
-[不良林教程 ref2](https://telegra.ph/node-03-10)
+* [不良林视频 ref](https://www.youtube.com/watch?v=s90feRmdr9A&list=PLD4NhM_IqBXWgPipuLewPNWzQam6g0xZ_&index=7)
+* [不良林教程 ref1](https://bulianglin.com/g/node/)
+* [不良林教程 ref2](https://telegra.ph/node-03-10)
 
 ## backup
 
