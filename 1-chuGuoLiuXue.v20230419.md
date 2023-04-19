@@ -124,10 +124,10 @@
 
 
             # x-ui 面板中添加的节点
-            location /f9af2f93-05b1-4986-9bcc-57b3a981a386 {   #分流路径
+            location /abcdef-05b1-4986-9bcc-abcdef {   #分流路径
                 proxy_redirect off;
                 # changeme: 节点的端口
-                proxy_pass http://127.0.0.1:50500; #Xray端口
+                proxy_pass http://127.0.0.1:10000; #Xray端口
                 proxy_http_version 1.1;
                 proxy_set_header Upgrade $http_upgrade;
                 proxy_set_header Connection "upgrade";
@@ -137,10 +137,10 @@
             }
 
             # x-ui 面板设置
-            location /f9af2f93-05b1-4986-9bcc-57b3a981a386-xui {   #xui路径
+            location /abcdef-05b1-4986-9bcc-abcdef-xui {   #xui路径
                 proxy_redirect off;
                 # changeme: x-ui 服务监听端口
-                proxy_pass http://127.0.0.1:26000;  #xui监听端口
+                proxy_pass http://127.0.0.1:9999;  #xui监听端口
                 proxy_http_version 1.1;
                 proxy_set_header Host $host;
             }
