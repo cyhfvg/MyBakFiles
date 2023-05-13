@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apt update
-apt install snapd
+apt install snapd -y
 
 snap install core
 

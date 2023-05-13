@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apt update
-apt install gcc make
+apt install gcc make -y
 
 wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
 
